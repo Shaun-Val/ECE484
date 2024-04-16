@@ -8,14 +8,16 @@ This file explains the Blue.c and Blue.h files. Blue.c is the file that will tur
 * Android Phone with Bluetooth Terminal
 * LED
 
-### functions: 
+### Functions: 
  * led - Sets up the LED as an output 
  * receiver - Reads in characters from bluetooth termianl  
  * transmit - Send characters back to the bluetooth terminal
 
 ### Compile Command:
-The 3 commands below are to be ran in the terminal within the same directory of your compile files. 
+The 3 commands below are to be ran in the terminal within the same directory of your compile files. When on PC replace /dev/cu.usbmodem1101 with the COM port number. 
 (Note in the the command Blue should be replaced with your .c file name)
+* /dev/cu.usbmodem1101: is only used for mac 
+* COM4: is only used for PC
 
 ## 
 
